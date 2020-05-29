@@ -1,0 +1,118 @@
+/* Variables */
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+/* Splash */
+.splash {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/golden-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  z-index: -2;
+}
+
+.splash::before {
+  position: absolute;
+  top: 0px;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: block;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.top-title h3 {
+  color: #fed136;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 26px;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.page-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+}
+
+.page-title {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-style: solid;
+  background: #fed136;
+  border-color: #fed136;
+  color: #fff;
+}
+
+/* Navigation */
+.top-title {
+  -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.navigation {
+  -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  margin: 10px auto;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0 36px 0 0;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation a:hover {
+  color: #fed136;
+}
+/*# sourceMappingURL=style.css.map */
