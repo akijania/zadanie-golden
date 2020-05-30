@@ -9,6 +9,27 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
+section {
+  margin: 100px 0;
+}
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  line-height: 1,7px;
+  line-break: loose;
+  font-weight: 800;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  font-style: italic;
+  color: #898989;
+  font-weight: 100;
+}
+
 /* Splash */
 .splash {
   display: -ms-flexbox;
@@ -108,11 +129,36 @@ body {
 
 .navigation a {
   text-decoration: none;
-  color: #fff;
+  color: #898989;
   font-family: "Roboto", sans-serif;
 }
 
 .navigation a:hover {
   color: #fed136;
+}
+
+/* SERVICES */
+.services-box {
+  margin-top: 50px;
+}
+
+.services-box i {
+  font-size: 35px;
+  background: none;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  color: #fed136;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+}
+
+.services-box h3 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px;
+}
+
+.services-box p {
+  color: #898989;
 }
 /*# sourceMappingURL=style.css.map */
