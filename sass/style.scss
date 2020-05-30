@@ -15,7 +15,7 @@ body {
     font-family: $font-text;
 }
 section {
-    margin: 100px 0;
+    padding: 100px 0;
 }
 .section-title {
     font-family: $font-title;
@@ -157,4 +157,32 @@ margin-top: 50px;
     color: $color-two;
 }
 
+/* PORTFOLIO */
 
+.portfolio {
+    background: #f7f7f7;
+
+}
+.portfolio-box { 
+    margin-top: 50px;
+
+}
+.box-inner{
+    background: #fff;
+    height: 400px;
+}
+.box-inner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.portfolio-box h3 {
+    font-family: $font-title;
+    margin-bottom: 0px;
+}
+.portfolio-box p {
+    color: $color-two;
+    font-style: italic;
+    margin-top: 0px;
+}

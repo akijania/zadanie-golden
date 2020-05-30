@@ -10,7 +10,7 @@ body {
 }
 
 section {
-  margin: 100px 0;
+  padding: 100px 0;
 }
 
 .section-title {
@@ -159,5 +159,36 @@ section {
 
 .services-box p {
   color: #898989;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  background: #f7f7f7;
+}
+
+.portfolio-box {
+  margin-top: 50px;
+}
+
+.box-inner {
+  background: #fff;
+  height: 400px;
+}
+
+.box-inner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.portfolio-box h3 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px;
+}
+
+.portfolio-box p {
+  color: #898989;
+  font-style: italic;
+  margin-top: 0px;
 }
 /*# sourceMappingURL=style.css.map */
